@@ -29,15 +29,19 @@ main {
 a{
   
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'NarrowNews' sans-serif;
   font-weight: 20px;
+  transition: font-size 0.3s;
 }
 body{
   margin-left: 0;
     margin-right: 0;
 }
-    
+ a:hover{
+  font-size: 40px;
+  color: rgb(19, 232, 12);
+ }   
 /* твой код */
 
 
